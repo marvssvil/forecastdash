@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <link rel="stylesheet" href="./assets/css/style.css">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <meta charset="utf-8">
+        <meta name="description" content="The Sweater Weather site is the best site to get your weather info at !">
+        <title>Sweater Weather</title>
+    </head>
+    <body>
+        <header>
+            <h1>Weather Dashboard</h1>
+        </header>
+        <main>
+            <aside>
+                <form>
+                    <label for="name">Search for a City:</label>
+                    <input type="text" id="city" name="city" required minlength="4" maxlength="10" size="30" placeholder="Choose Your City!">
+                    <button class="citysearch" type="button">Search</button>
+                </form>
+            </aside>
+            <section>
+                <article>
+                    <h2>Atlanta</h2>
+                </article>
+                <article>
+                    <h3>5-Day Forecast:</h3>
+                </article>
+            </section>
+        </main>
+
+
+        <script src="./assets/js/forecast.js"></script>
+    </body>
+</html>

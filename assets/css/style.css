@@ -1,0 +1,31 @@
+* {
+    box-sizing: border-box;
+}
+
+header {
+    background-image: linear-gradient(to bottom right, #323aa8, #9932a8);
+    padding: 2px 2px 5px 2px;
+}
+
+header h1 {
+    color: aliceblue;
+    text-align: center;
+}
+
+main {
+    display: flex;
+}
+
+aside {
+    width: 30%;
+    padding: 1.5%;
+}
+
+aside label {
+    font-size: 2vw;
+    font-weight: bolder;
+}
+
+input {
+    height: 3vw;
+}
