@@ -29,3 +29,9 @@ aside label {
 input {
     height: 3vw;
 }
+
+.display {
+    width: 70%;
+    border-color: black;
+    border: 1px 1px 1px 1px;
+}
