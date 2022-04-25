@@ -23,4 +23,3 @@ button.addEventListener('click', function(){
 
 .catch(err => alert("Put a valid city!"))
 }) 
-

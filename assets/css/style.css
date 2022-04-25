@@ -12,13 +12,11 @@ header h1 {
     text-align: center;
 }
 
-main {
-    display: flex;
-}
 
 aside {
     width: 30%;
     padding: 1.5%;
+    flex: 0 0 25%;
 }
 
 aside label {
@@ -26,12 +24,29 @@ aside label {
     font-weight: bolder;
 }
 
+.citysearch {
+    background-color: #3f7cd1;
+    padding: 3% 34% 3% 35%;
+    border-radius: 4px;
+}
+
+section {
+    padding-top: .5vw;
+    flex: 0 0 75%;
+}
+
+main {
+    display: flex;
+    gap: 10px;
+}
+
 input {
     height: 3vw;
 }
 
 .display {
-    width: 70%;
+    border-width: 70%;
     border-color: black;
-    border: 1px 1px 1px 1px;
+    border-style: solid;
 }
+
